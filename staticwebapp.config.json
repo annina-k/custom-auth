@@ -18,10 +18,9 @@
     "identityProviders": {
       "azureActiveDirectory": {
         "registration": {
-          "openIdIssuer": "https://login.microsoftonline.com/common/v2.0",
+          "openIdIssuer": "https://login.microsoftonline.com/df7f77eb-579b-4c48-b5a9-afd4142af715/v2.0",
           "clientIdSettingName": "AZURE_CLIENT_ID",
-          "clientSecretCertificateThumbprint": "*",
-          "clientSecretCertificateKeyVaultReference": "@Microsoft.KeyVault(SecretUri=https://annikel-auth-kv.vault.azure.net/certificates/custom-auth-cert/4387645fe82145c6aeb79b757ee5cee5)"
+          "clientSecretSettingName": "AZURE_CLIENT_SECRET"
         }
       }
     }
